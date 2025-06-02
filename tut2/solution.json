@@ -1,0 +1,227 @@
+{
+    "internal-dpl-clock": "",
+    "generator-task": {
+        "generator": "",
+        "nEvents": "",
+        "trigger": "",
+        "configFile": "",
+        "configKeyValues": "",
+        "seed": "0",
+        "aggregate-timeframe": "300",
+        "vertexMode": "kDiamondParam",
+        "time-limit": "-1",
+        "output": "",
+        "orbit-offset-enumeration": "0",
+        "orbit-multiplier-enumeration": "0",
+        "start-value-enumeration": "0",
+        "end-value-enumeration": "-1",
+        "step-value-enumeration": "1"
+    },
+    "mctracks-to-aod": {
+        "interaction-rate": "100",
+        "filter-mctracks": "false",
+        "tf-offset": "0"
+    },
+    "internal-dpl-aod-spawner": "",
+    "on-the-fly-tracker": {
+        "seed": "0",
+        "magneticField": "20",
+        "maxEta": "1.5",
+        "multEtaRange": "0.800000012",
+        "minPt": "0.01",
+        "enableLUT": "true",
+        "enablePrimarySmearing": "true",
+        "enableSecondarySmearing": "false",
+        "enableNucleiSmearing": "false",
+        "enablePrimaryVertexing": "false",
+        "interpolateLutEfficiencyVsNch": "true",
+        "populateTracksDCA": "true",
+        "populateTracksDCACov": "false",
+        "populateTracksExtra": "false",
+        "populateTrackSelection": "false",
+        "processUnreconstructedTracks": "false",
+        "doExtraQA": "false",
+        "extraQAwithoutDecayDaughters": "false",
+        "lutEl": "../LUTs/lutCovm.el.dat",
+        "lutMu": "../LUTs/lutCovm.mu.dat",
+        "lutPi": "../LUTs/lutCovm.pi.dat",
+        "lutKa": "../LUTs/lutCovm.ka.dat",
+        "lutPr": "../LUTs/lutCovm.pr.dat",
+        "lutDe": "../LUTs/lutCovm.de.dat",
+        "lutTr": "../LUTs/lutCovm.tr.dat",
+        "lutHe3": "../LUTs/lutCovm.he3.dat",
+        "axisMomentum": {
+            "values": [
+                "0",
+                "0",
+                "0.10000000149011612",
+                "0.20000000298023224",
+                "0.30000001192092896",
+                "0.40000000596046448",
+                "0.5",
+                "0.60000002384185791",
+                "0.69999998807907104",
+                "0.80000001192092896",
+                "0.89999997615814209",
+                "1",
+                "1.1000000238418579",
+                "1.200000047683716",
+                "1.2999999523162842",
+                "1.3999999761581421",
+                "1.5",
+                "1.6000000238418579",
+                "1.700000047683716",
+                "1.7999999523162842",
+                "1.8999999761581421",
+                "2",
+                "2.2000000476837158",
+                "2.4000000953674321",
+                "2.5999999046325684",
+                "2.7999999523162842",
+                "3",
+                "3.2000000476837158",
+                "3.4000000953674321",
+                "3.5999999046325684",
+                "3.7999999523162842",
+                "4",
+                "4.4000000953674316",
+                "4.8000001907348633",
+                "5.1999998092651367",
+                "5.5999999046325684",
+                "6",
+                "6.5",
+                "7",
+                "7.5",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "19",
+                "21",
+                "23",
+                "25",
+                "30",
+                "35",
+                "40",
+                "50"
+            ]
+        },
+        "axisNVertices": {
+            "values": [
+                "20",
+                "-0.5",
+                "19.5"
+            ]
+        },
+        "axisMultiplicity": {
+            "values": [
+                "100",
+                "-0.5",
+                "99.5"
+            ]
+        },
+        "axisVertexZ": {
+            "values": [
+                "40",
+                "-20",
+                "20"
+            ]
+        },
+        "axisDCA": {
+            "values": [
+                "400",
+                "-200",
+                "200"
+            ]
+        },
+        "axisX": {
+            "values": [
+                "250",
+                "-50",
+                "200"
+            ]
+        },
+        "axisDecayRadius": {
+            "values": [
+                "55",
+                "0.01",
+                "100"
+            ]
+        },
+        "axisLambdaMass": {
+            "values": [
+                "200",
+                "1.1009999513626101",
+                "1.1310000419616699"
+            ]
+        },
+        "axisXiMass": {
+            "values": [
+                "200",
+                "1.2200000286102295",
+                "1.4199999570846558"
+            ]
+        },
+        "axisDeltaPt": {
+            "values": [
+                "200",
+                "-1",
+                "1"
+            ]
+        },
+        "axisDeltaEta": {
+            "values": [
+                "200",
+                "-0.5",
+                "0.5"
+            ]
+        },
+        "axisRadius": {
+            "values": [
+                "2500",
+                "0",
+                "250"
+            ]
+        },
+        "axisZ": {
+            "values": [
+                "100",
+                "-250",
+                "250"
+            ]
+        },
+        "fastTrackerSettings": {
+            "minSiliconHits": "6",
+            "minSiliconHitsIfTPCUsed": "2",
+            "minTPCClusters": "70",
+            "alice3detector": "0",
+            "applyZacceptance": "false",
+            "applyMSCorrection": "true",
+            "applyElossCorrection": "true",
+            "applyEffCorrection": "true",
+            "pixelRes": {
+                "values": [
+                    "0.000250000012",
+                    "0.000250000012",
+                    "0.00100000005",
+                    "0.00100000005"
+                ]
+            }
+        },
+        "cascadeDecaySettings": {
+            "decayXi": "false",
+            "findXi": "false",
+            "trackXi": "false",
+            "doXiQA": "false"
+        }
+    },
+    "on-the-fly-tracker-initializer": "",
+    "internal-dpl-aod-writer": "",
+    "internal-dpl-aod-global-analysis-file-sink": "",
+    "internal-dpl-injected-dummy-sink": ""
+}
