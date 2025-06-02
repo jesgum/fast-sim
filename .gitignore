@@ -1,0 +1,25 @@
+# .gitignore
+
+# rootfiles
+*.root
+*.d
+*.so
+*.pcm
+
+# look-up tables
+*.dat
+
+# log files and such
+o2sim*
+*.log
+core_dump_*
+
+# plots and stuff
+*.png
+*.pdf
+
+# directories
+.vscode/
+
+# other
+dpl-config.json 
