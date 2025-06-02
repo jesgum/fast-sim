@@ -220,7 +220,141 @@
             "doXiQA": "false"
         }
     },
+    "alice3decaypreselector": {
+        "nSigmaTOF": "4",
+        "nSigmaRICH": "4",
+        "processInitialize": "true",
+        "processFilterInnerTOF": "false",
+        "processFilterOuterTOF": "false",
+        "processFilterRICH": "false",
+        "processFilterOnMonteCarloTruth": "true",
+        "processPublishDecision": "true"
+    },
     "on-the-fly-tracker-initializer": "",
+    "alice3decay-finder": {
+        "magneticField": "20",
+        "doDCAplotsD": "true",
+        "doDCAplotsLc": "false",
+        "mcSameMotherCheck": "true",
+        "dcaDaughtersSelection": "999",
+        "piFromD_dcaXYconstant": "-1",
+        "piFromD_dcaXYpTdep": "0",
+        "kaFromD_dcaXYconstant": "-1",
+        "kaFromD_dcaXYpTdep": "0",
+        "DCosPA": "-1",
+        "DCosPAHighPt": "-1",
+        "DCosPAxy": "-1",
+        "DCosPAxyHighPt": "-1",
+        "DCosThetaStarLowPt": "999",
+        "DCosThetaStarHighPt": "999",
+        "DCosThetaStarVHighPt": "999",
+        "DDauDecayLength": "999",
+        "piFromLc_dcaXYconstant": "-1",
+        "piFromLc_dcaXYpTdep": "0",
+        "kaFromLc_dcaXYconstant": "-1",
+        "kaFromLc_dcaXYpTdep": "0",
+        "prFromLc_dcaXYconstant": "-1",
+        "prFromLc_dcaXYpTdep": "0",
+        "axisEta": {
+            "values": [
+                "8",
+                "-4",
+                "4"
+            ]
+        },
+        "axisPt": {
+            "values": [
+                "0",
+                "0",
+                "0.10000000149011612",
+                "0.20000000298023224",
+                "0.30000001192092896",
+                "0.40000000596046448",
+                "0.5",
+                "0.60000002384185791",
+                "0.69999998807907104",
+                "0.80000001192092896",
+                "0.89999997615814209",
+                "1",
+                "1.1000000238418579",
+                "1.200000047683716",
+                "1.2999999523162842",
+                "1.3999999761581421",
+                "1.5",
+                "1.6000000238418579",
+                "1.700000047683716",
+                "1.7999999523162842",
+                "1.8999999761581421",
+                "2",
+                "2.2000000476837158",
+                "2.4000000953674321",
+                "2.5999999046325684",
+                "2.7999999523162842",
+                "3",
+                "3.2000000476837158",
+                "3.4000000953674321",
+                "3.5999999046325684",
+                "3.7999999523162842",
+                "4",
+                "4.4000000953674316",
+                "4.8000001907348633",
+                "5.1999998092651367",
+                "5.5999999046325684",
+                "6",
+                "6.5",
+                "7",
+                "7.5",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "17",
+                "19",
+                "21",
+                "23",
+                "25",
+                "30",
+                "35",
+                "40",
+                "50"
+            ]
+        },
+        "axisDCA": {
+            "values": [
+                "200",
+                "-100",
+                "100"
+            ]
+        },
+        "axisDCADaughters": {
+            "values": [
+                "200",
+                "0",
+                "100"
+            ]
+        },
+        "axisDMass": {
+            "values": [
+                "200",
+                "1.7649999856948853",
+                "1.9650000333786011"
+            ]
+        },
+        "axisLcMass": {
+            "values": [
+                "200",
+                "2.1860001087188721",
+                "2.3859999179840088"
+            ]
+        },
+        "processGenerated": "true",
+        "processFindDmesons": "true",
+        "processFindLcBaryons": "false"
+    },
     "internal-dpl-aod-writer": "",
     "internal-dpl-aod-global-analysis-file-sink": "",
     "internal-dpl-injected-dummy-sink": ""
