@@ -2,8 +2,10 @@
 #include "TGraph.h"
 #include "TLorentzVector.h"
 #include "TCanvas.h"
+
 // Usage: in Delphes O2 run `root DetectorK/HistoManager.cxx+ DetectorK/DetectorK.cxx+ drawFAT.C`
-  
+// Requires AliPhysics and to be ran here: https://github.com/AliceO2Group/DelphesO2/tree/master/src
+
 void drawFAT()
 {
   DetectorK fat = DetectorK("example", "example");
@@ -138,12 +140,15 @@ void drawFAT()
   }
 
   // Now we plot the results
-  new TCanvas("gPt", "gPt", 800, 600);
+  TCanvas* canvPt = new TCanvas("canvPt", "gPt", 800, 600);
   gPt->Draw("ALP");
+  canvPt->SaveAs("canvPt.pdf");
 
-  new TCanvas("gPtReso", "gPtReso", 800, 600);
+  TCanvas* canvPtReso = new TCanvas("canvPtReso", "gPtReso", 800, 600);
   gPtReso->Draw("ALP");
+  canvPtReso->SaveAs("canvPtReso.pdf");
 
-  new TCanvas("gEtaEfficiency", "gEtaEfficiency", 800, 600);
+  TCanvas* canvEtaEfficiency = new TCanvas("canvEtaEfficiency", "gEtaEfficiency", 800, 600);
   gEtaEfficiency->Draw("ALP");
+  canvEtaEfficiency->SaveAs("canvEtaEfficiency.pdf");
 }
